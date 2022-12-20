@@ -44,14 +44,14 @@
     <!-- Header/Nav Ends -->
 
     <!-- Quiz Starts -->
-    <section id="container" class="container">
+    <section id="quiz-container" class="quiz-container">
       <!-- Score Starts -->
       <div class="info">Score:0</div>
       <!-- Score Ends -->
       <div class="quiz-content">
         <form>
           <fieldset class="form-group">
-            <legend class="mt-4">Radio buttons</legend>
+            <legend class="mt-4">Question</legend>
             <div class="form-check">
               <input
                 class="form-check-input"
@@ -85,14 +85,16 @@
                 name="optionsRadios"
                 id="optionsRadios3"
                 value="option3"
-                disabled=""
               />
               <label class="form-check-label" for="optionsRadios3">
                 Option three is disabled
               </label>
             </div>
           </fieldset>
-          <button type="submit" class="btn btn-primary">Next</button>
+          <div class="btn-row">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-secondary">Exit</button>
+          </div>
         </form>
       </div>
     </section>

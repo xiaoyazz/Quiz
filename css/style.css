@@ -1,9 +1,13 @@
-.container {
+.quiz-container{
   margin: auto;
   margin-top: 30px;
   width: 50%;
-  border: 3px solid #73AD21;
   padding: 30px;
+}
+
+.btn-row {
+    margin-top: 10%;
+    float: right;
 }
 
 .about{
