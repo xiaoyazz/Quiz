@@ -91,6 +91,16 @@
 
 @media screen and (max-width: 600px) {
 
+  .quiz-container{
+    padding: 0;
+    width: 100%;
+  }
+
+  .content {
+    width: 90%;
+    padding: 0;
+  }
+
   .content h1 {
     font-size: 30px;
   }
@@ -101,6 +111,8 @@
 
   .card-container {
     margin-bottom: 20px;
+    width: 90%;
+    padding: 0;
   }
 
   .card {
