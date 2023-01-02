@@ -4,18 +4,6 @@
 const question = document.getElementById('question');
 const choiceDiv = document.getElementById('choiceDiv');
 
-const choiceA = document.getElementById('a');
-const lblA = document.getElementById('labelA');
-
-const choiceB = document.getElementById('b');
-const lblB = document.getElementById('labelB');
-
-const choiceC = document.getElementById('c');
-const lblC = document.getElementById('labelC');
-
-const choiceD = document.getElementById('d');
-const lblD = document.getElementById('labelD');
-
 const options = document.getElementsByName('optionsRadios');
 let optionValue;
 
@@ -24,8 +12,6 @@ const alert = document.getElementById('alert');
 
 let questionCtr = 0;
 let currentQuestion = {};
-let acceptAnswer = false;
-let questions = [];
 let questionArr = [];
 let questionIndex;
 let results;
@@ -85,7 +71,6 @@ getNextQuestion = () => {
         choiceDiv.appendChild(div);
     }
         results.splice(questionIndex, 1);
-        acceptAnswer = true;
 
     // Validate the user answer & display the corresponding alert
     btnCheck.addEventListener('click', function () {

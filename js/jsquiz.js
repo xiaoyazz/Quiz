@@ -23,7 +23,6 @@ const alert = document.getElementById('alert');
 
 let questionCtr = 0;
 let currentQuestion = {};
-let acceptAnswer = false;
 let questions = [];
 let questionArr = [];
 let questionIndex;
@@ -71,7 +70,6 @@ getNextQuestion = () => {
     lblD.innerText = currentQuestion.d;
 
     questionArr.splice(questionIndex, 1);
-    acceptAnswer = true;
 
     // Validate the user answer & display the corresponding alert
     btnCheck.addEventListener('click', function () {
