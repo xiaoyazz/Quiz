@@ -19,6 +19,7 @@ const options = document.getElementsByName('optionsRadios');
 let optionValue;
 
 const btnCheck = document.getElementById('checkAnswer');
+const alert = document.getElementById('alert');
 
 let questionCtr = 0;
 let currentQuestion = {};
@@ -77,14 +78,20 @@ getNextQuestion = () => {
     questionArr.splice(questionIndex, 1);
     acceptAnswer = true;
 
+    // Validate the user answer & display the corresponding alert
     btnCheck.addEventListener('click', function () {
         for (let i = 0; i < options.length; i++){
         if (options[i].checked) {
             optionValue = options[i].value;
+            // console.log(optionValue);
             if (optionValue === currentQuestion.correct) {
                 console.log('yes');
+                alert.innerHTML = `<div class="alert alert-dismissible alert-info">
+  <button type="button" class="btn-close" data-bs-dismiss="alert"></button>Well done! You chose the correct answer.</div>`
             } else {
-                console.log('no');
+                //console.log('no');
+                alert.innerHTML = `<div class="alert alert-dismissible alert-secondary">
+  <button type="button" class="btn-close" data-bs-dismiss="alert"></button>The answer is wrong. Please try again.</div>`
             }
         }
     }

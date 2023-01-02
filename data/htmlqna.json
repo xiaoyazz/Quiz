@@ -5,7 +5,7 @@
     "b": "High Text Markup Language",
     "c": "Hyper Text Machine Language",
     "d": "Hyper Text Markup Language",
-    "correct": "d"
+    "correct": "Hyper Text Markup Language"
   },
   {
     "question": "Which tag defines a paragragh:",
@@ -13,7 +13,7 @@
     "b": "<p>",
     "c": "<pg>",
     "d": "<section>",
-    "correct": "b"
+    "correct": "<p>"
   },
   {
     "question": "Which tag defines a single-line text input field:",
@@ -21,6 +21,6 @@
     "b": "<input default=\"text\">",
     "c": "<input type=\"text\">",
     "d": "<input attribute=\"text\">",
-    "correct": "c"
+    "correct": "<input type=\"text\">"
   }
 ]

@@ -15,13 +15,16 @@
       <li class="breadcrumb-item active">HTML Quiz</li>
     </ol>
 
+    <!-- Alert -->
+    <div id="alert"></div>
+
     <!-- Quiz Starts -->
     <section id="quiz-container" class="quiz-container">
       <!-- Score Starts -->
       <!-- <div class="info">Score:0</div> -->
       <!-- Score Ends -->
       <div class="quiz-content">
-        <form>
+        <form onsubmit="event.preventDefault();">
           <fieldset class="form-group">
             <!-- Question -->
             <legend class="mt-4" id="question">What is the answer?</legend>
