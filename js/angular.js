@@ -28,7 +28,7 @@ let questionArr = [];
 let questionIndex;
 
 // Get data from the local json file For Angular quizzes
-fetch('/data/angularqna.json')
+fetch('../data/angularqna.json')
     .then(function (response) {
             return response.json();
         })
