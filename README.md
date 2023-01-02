@@ -5,3 +5,5 @@
 - Data fetched via local JSON files and web api
 - Developed by HTML, CSS, Javascript. and Bootstrap
 - API: https://opentdb.com/
+
+Try it out 👉: https://xiaoyazz.github.io/Quiz/
