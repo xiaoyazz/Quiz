@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "a": "Hyper Test Markup Language",
+    "b": "High Text Markup Language",
+    "c": "Hyper Text Machine Language",
+    "d": "Hyper Text Markup Language",
+    "correct": "d"
+  },
+  {
+    "question": "Which tag defines a paragragh:",
+    "a": "<h1>",
+    "b": "<p>",
+    "c": "<pg>",
+    "d": "<section>",
+    "correct": "b"
+  },
+  {
+    "question": "Which tag defines a single-line text input field:",
+    "a": "<input value=\"text\">",
+    "b": "<input default=\"text\">",
+    "c": "<input type=\"text\">",
+    "d": "<input attribute=\"text\">",
+    "correct": "c"
+  }
+]
