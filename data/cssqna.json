@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What does CSS stand for?",
+    "a": "Cascading Style Sheets",
+    "b": "Cascading Style Schedule",
+    "c": "Creative Style Sheets",
+    "d": "Completed Style Sheets",
+    "correct": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which property specifies the transparency of an element:",
+    "a": "backgroud-opacity",
+    "b": "opacity",
+    "c": "opacities",
+    "d": "opacity-value",
+    "correct": "opacity"
+  },
+  {
+    "question": "CSS defines the following types of gradients except:",
+    "a": "Linear Gradients",
+    "b": "Radial Gradients",
+    "c": "Conic Gradients",
+    "d": "Background Gradients",
+    "correct": "Background Gradients"
+  }
+]
