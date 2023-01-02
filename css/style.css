@@ -9,6 +9,10 @@
   margin-top: -16px;
 }
 
+#alert{
+  margin: 0 -1px;
+}
+
 .btn-row {
     margin-top: 10%;
 }

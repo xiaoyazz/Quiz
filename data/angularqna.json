@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What is Angular?",
+    "a": "Angular is the latest version of JavaScript",
+    "b": "Angular is an application-design framework and development platform for creating efficient and sophisticated single-page apps",
+    "c": "Angular is a JavaScript-based, free and open-source framework created by the Apple team",
+    "d": "Angular is an Agile tool",
+    "correct": "Angular is an application-design framework and development platform for creating efficient and sophisticated single-page apps"
+  },
+  {
+    "question": "An Angular component contains the following by default except:",
+    "a": "A directory named after the component",
+    "b": "A component file, <component-name>.component.ts",
+    "c": "A template file, <component-name>.component.html",
+    "d": "A JavaScript file, <component-name>.component.js",
+    "correct": "A JavaScript file, <component-name>.component.js"
+  },
+  {
+    "question": "You can pass data from parent to child with:",
+    "a": "Output binding",
+    "b": "Input binding",
+    "c": "Parent binding",
+    "d": "Child binding",
+    "correct": "Input binding"
+  }
+]
