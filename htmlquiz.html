@@ -24,7 +24,7 @@
       <!-- <div class="info">Score:0</div> -->
       <!-- Score Ends -->
       <div class="quiz-content">
-        <form onsubmit="event.preventDefault();">
+        <form>
           <fieldset class="form-group">
             <!-- Question -->
             <legend class="mt-4" id="question">What is the answer?</legend>
@@ -95,7 +95,9 @@
             </div>
           </fieldset>
           <div class="btn-row">
-            <button class="btn btn-primary" id="checkAnswer">Check</button>
+            <button type="button" class="btn btn-primary" id="checkAnswer">
+              Check
+            </button>
             <button type="submit" class="btn btn-warning">Next</button>
           </div>
         </form>
