@@ -56,6 +56,10 @@
   }
 }
 
+.row {
+  margin-bottom: 20px;
+}
+
 .btn-row {
     margin-top: 10%;
 }
@@ -95,7 +99,19 @@
     margin-bottom: 20px;
   }
 
-  img {
+  .card-container {
+    margin-bottom: 20px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .row {
+    margin-bottom: 0;
+  }
+
+  img, .footer {
     display: none;
   }
   .quiz-container{
