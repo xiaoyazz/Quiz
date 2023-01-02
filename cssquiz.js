@@ -28,7 +28,7 @@ let questionArr = [];
 let questionIndex;
 
 // Get data from the local json file For CSS quizzes
-fetch('/data/cssqna.json')
+fetch('cssqna.json')
     .then(function (response) {
             return response.json();
         })
