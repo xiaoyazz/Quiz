@@ -1,0 +1,26 @@
+[
+  {
+    "question": "Which statement is not correct about JavaScript:",
+    "a": "JavaScript accepts both double and single quotes",
+    "b": "JavaScript Can Change HTML Attribute Values",
+    "c": "Variables defined with let cannot be Redeclared.",
+    "d": "The sorted() method sorts an array alphabetically",
+    "correct": "The sorted() method sorts an array alphabetically"
+  },
+  {
+    "question": "Which statement is correct about objects:",
+    "a": "You can't define a JavaScript object by yourself",
+    "b": "The name:values pairs in JavaScript objects are called properties",
+    "c": "You can access object properties by objectName[propertyName]",
+    "d": "None of the answers is correct",
+    "correct": "The name:values pairs in JavaScript objects are called properties"
+  },
+  {
+    "question": "Which statement is not correct about events:",
+    "a": "HTML events are \"objects\" that happen to HTML elements",
+    "b": "\"An HTML web page has finished loading\" is an event",
+    "c": "You can add event like this: <element event='my event'>",
+    "d": "All of them are correct",
+    "correct": "HTML events are \"objects\" that happen to HTML elements"
+  }
+]
