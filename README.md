@@ -1,7 +1,7 @@
 # Quiz
 
-A quiz app created by Xiaoya Zou on Dec 20, 2022
-https://xiaoyazz.github.io/Quiz/
+- A quiz app created by Xiaoya Zou on Dec 20, 2022
+- Try it out: https://xiaoyazz.github.io/Quiz/
 
 ## Key features
 - Allow user to take quizzes with the following categories: HTML/CSS/JavaScript/Angular/Science & Nature/Sports
