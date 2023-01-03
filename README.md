@@ -2,7 +2,8 @@
 
 - A quiz app created by Xiaoya Zou on Dec 20, 2022
 - Quiz categories: HTML/CSS/JavaScript/Angular/Science & Nature/Sports
-- Data fetched via local JSON files and web api
+- Questions of HTML, CSS, JavaScript, and Angular are fetched from local JSON files
+- Questions of Science & Nature and Sports are fetched from open database api
 - Developed by HTML, CSS, Javascript. and Bootstrap
 - API: https://opentdb.com/
 - Try it out 👉: https://xiaoyazz.github.io/Quiz/
