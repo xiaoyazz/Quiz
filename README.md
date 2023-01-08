@@ -14,5 +14,4 @@ https://opentdb.com/
 
 ## At a Glance
 <img width="600" src="https://user-images.githubusercontent.com/84748829/210284371-556f32e3-3f46-44dd-b6e4-6d885e679d2d.JPG">
-<img width="240" src="https://user-images.githubusercontent.com/84748829/210285078-c722d20c-c00c-4b13-9db6-62204119aa48.JPG">
 
