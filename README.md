@@ -9,7 +9,7 @@
 - Questions of Science & Nature and Sports are fetched from open database api
 - Developed by HTML, CSS, Javascript. and Bootstrap
 
-## Web API
+## Quiz API
 https://opentdb.com/
 
 ## At a Glance
